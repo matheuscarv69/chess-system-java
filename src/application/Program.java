@@ -1,8 +1,15 @@
 package application;
 
+import bordergame.Position;
+
 public class Program {
 
     public static void main(String[] args) {
-	// write your code here
+
+
+        Position position = new Position(3,5);
+
+        System.out.println(position);
+
     }
 }
